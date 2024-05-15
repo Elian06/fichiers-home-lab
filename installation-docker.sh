@@ -27,6 +27,6 @@ sudo apt update
 sudo apt install docker.io
 
 #Activation et vérification
-sudo systemctl enable docker
+sudo systemctl start docker
 sudo systemctl status docker
 
